@@ -14,7 +14,7 @@ const App = () => {
     <div className="App">
       <div className='rica-header'>
         <nav className='navbar navbar-expand-lg rica-navbar'>
-          <a className='rica-company-banner navbar-brand'>
+          <a className='rica-company-banner navbar-brand' href='#'>
             <img src={negative} alt="" className='logo-image img img-responsive' />
           </a>
           <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#ricanavbar'>
@@ -23,22 +23,22 @@ const App = () => {
           <div className='rica-site-navigation collapse navbar-collapse' id='ricanavbar'>
             <ul className='navbar-nav'>
               <li className='nav-item'>
-                <a className='nav-link active'><Link className='navigation-item' to='/home'>Home</Link></a>
+                <a className='nav-link active' href='#'><Link className='navigation-item' to='/home'>Home</Link></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link'><Link className='navigation-item' to='/about'>About Us</Link></a>
+                <a className='nav-link' href='#'><Link className='navigation-item' to='/about'>About Us</Link></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link'><Link className='navigation-item' to='/services'>Services</Link></a>
+                <a className='nav-link' href='#'><Link className='navigation-item' to='/services'>Services</Link></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link'><Link className='navigation-item' to='/location'>Location</Link></a>
+                <a className='nav-link' href='#'><Link className='navigation-item' to='/location'>Location</Link></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link'><Link className='navigation-item' to='/team'>Team</Link></a>
+                <a className='nav-link' href='#'><Link className='navigation-item' to='/team'>Team</Link></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link'><Link className='navigation-item' to='/contact'>Contact Us</Link></a>
+                <a className='nav-link' href='#'><Link className='navigation-item' to='/contact'>Contact Us</Link></a>
               </li>
             </ul>
           </div>
