@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route, Link, Navigate} from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Services from './pages/services'
@@ -47,6 +47,7 @@ const App = () => {
 
       <div className='rica-content'>
         <Routes>
+          <Route path='/' element={<Navigate to='/home'/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
