@@ -23,22 +23,22 @@ const App = () => {
           <div className='rica-site-navigation collapse navbar-collapse' id='ricanavbar'>
             <ul className='navbar-nav'>
               <li className='nav-item'>
-                <a className='nav-link active' href='#'><Link className='navigation-item' to='/home'>Home</Link></a>
+                <Link className='nav-link navigation-item' to='/home'>Home</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'><Link className='navigation-item' to='/about'>About Us</Link></a>
+                <Link className='nav-link navigation-item' to='/about'>About Us</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'><Link className='navigation-item' to='/services'>Services</Link></a>
+                <Link className='nav-link navigation-item' to='/services'>Services</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'><Link className='navigation-item' to='/location'>Location</Link></a>
+                <Link className='nav-link navigation-item' to='/location'>Location</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'><Link className='navigation-item' to='/team'>Team</Link></a>
+                <Link className='nav-link navigation-item' to='/team'>Team</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'><Link className='navigation-item' to='/contact'>Contact Us</Link></a>
+                <Link className='nav-link navigation-item' to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>
