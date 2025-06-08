@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b5f6360.css",
-    "main.js": "/static/js/main.bde6d72f.js",
-    "static/media/housing.png": "/static/media/housing.488a2f32268148b30262.png",
-    "static/media/career.png": "/static/media/career.222aa3064ca212b4e7f3.png",
-    "static/media/cultural-integration.png": "/static/media/cultural-integration.84acd047cc55c7938895.png",
-    "static/media/orientation.png": "/static/media/orientation.a947a5f1c1eed347c99b.png",
-    "static/media/medical-support.png": "/static/media/medical-support.757d4e00d8b81a71cd90.png",
-    "static/media/support.png": "/static/media/support.7efe5d40c9de22816457.png",
-    "static/media/immigration.png": "/static/media/immigration.c386fc6d065e56874440.png",
-    "static/media/rica-logo.png": "/static/media/rica-logo.a9374abe70c094e83a58.png",
-    "static/media/maxwell.jpg": "/static/media/maxwell.6b224331e3af3021d14e.jpg",
-    "static/media/isaack.jpg": "/static/media/isaack.8014cbfe6c0dc89d7456.jpg",
-    "static/media/hussein.jpg": "/static/media/hussein.ea41e799f50c582359ad.jpg",
-    "static/media/tshibangu.jpg": "/static/media/tshibangu.51aa17e6c5f277319891.jpg",
-    "index.html": "/index.html",
-    "main.3b5f6360.css.map": "/static/css/main.3b5f6360.css.map",
-    "main.bde6d72f.js.map": "/static/js/main.bde6d72f.js.map"
+    "main.css": "/rica/static/css/main.3b5f6360.css",
+    "main.js": "/rica/static/js/main.5fcbafb6.js",
+    "static/media/housing.png": "/rica/static/media/housing.488a2f32268148b30262.png",
+    "static/media/career.png": "/rica/static/media/career.222aa3064ca212b4e7f3.png",
+    "static/media/cultural-integration.png": "/rica/static/media/cultural-integration.84acd047cc55c7938895.png",
+    "static/media/orientation.png": "/rica/static/media/orientation.a947a5f1c1eed347c99b.png",
+    "static/media/medical-support.png": "/rica/static/media/medical-support.757d4e00d8b81a71cd90.png",
+    "static/media/support.png": "/rica/static/media/support.7efe5d40c9de22816457.png",
+    "static/media/immigration.png": "/rica/static/media/immigration.c386fc6d065e56874440.png",
+    "static/media/rica-logo.png": "/rica/static/media/rica-logo.a9374abe70c094e83a58.png",
+    "static/media/maxwell.jpg": "/rica/static/media/maxwell.6b224331e3af3021d14e.jpg",
+    "static/media/isaack.jpg": "/rica/static/media/isaack.8014cbfe6c0dc89d7456.jpg",
+    "static/media/hussein.jpg": "/rica/static/media/hussein.ea41e799f50c582359ad.jpg",
+    "static/media/tshibangu.jpg": "/rica/static/media/tshibangu.51aa17e6c5f277319891.jpg",
+    "index.html": "/rica/index.html",
+    "main.3b5f6360.css.map": "/rica/static/css/main.3b5f6360.css.map",
+    "main.5fcbafb6.js.map": "/rica/static/js/main.5fcbafb6.js.map"
   },
   "entrypoints": [
     "static/css/main.3b5f6360.css",
-    "static/js/main.bde6d72f.js"
+    "static/js/main.5fcbafb6.js"
   ]
 }
