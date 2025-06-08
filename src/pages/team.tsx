@@ -1,11 +1,52 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import isaack from '../images/isaack.jpg'
 import tshibangu from '../images/tshibangu.jpg'
 import hussein from '../images/hussein.jpg'
+import { team } from '../biopages/biographies'
+import { groupedmembers } from '../utils/biography'
+import { member } from '../types/types'
 const Team = () => {
+    const refTeam = useRef<HTMLDivElement>(null)
+    const createmembers = (cont:HTMLDivElement, group:member[], title:string) => {
+        let heading = document.createElement('h3')
+        heading.classList.add('team-section-header')
+        heading.innerHTML = title
+        cont.appendChild(heading)
+        let gboard = groupedmembers(group)
+        gboard.forEach((gb)=>{
+            let gbrow = document.createElement('div')
+            gbrow.classList.add('row', 'team-row')
+            gb.forEach((b)=>{
+                let bcard = document.createElement('div')
+                bcard.classList.add('col-md', 'card', 'team-card')
+                let bimg = document.createElement('img')
+                bimg.classList.add('card-img-top')
+                bimg.src = b.photo
+                bcard.appendChild(bimg)
+                let bhead = document.createElement('h6')
+                bhead.classList.add('team-member-name', 'card-title')
+                bhead.innerHTML = b.name
+                bcard.appendChild(bhead)
+                let btitle = document.createElement('span')
+                btitle.classList.add('team-member-title')
+                btitle.innerHTML = b.title
+                bcard.appendChild(btitle)
+                gbrow.appendChild(bcard)
+            })
+            cont.appendChild(gbrow)
+        })
+    }
+    useEffect(()=>{
+        if (refTeam.current && refTeam.current.innerHTML == ''){
+            createmembers(refTeam.current, team.board, 'BOARD OF DIRECTORS')
+            createmembers(refTeam.current, team.members, 'TEAM MEMBERS')
+        }
+    },[])
     return (
-        <div className='rica-page'>
-            <h3 className='team-section-header'>BOARD OF DIRECTORS</h3>
+        <div className='rica-page' ref={refTeam}>
+
+
+            {/* <h3 className='team-section-header'>BOARD OF DIRECTORS</h3>
             <table className='table table-responsive table-striped table-bordered'>
                 <thead>
                     <th>ID</th>
@@ -119,7 +160,6 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-
             <div className='row team-row'>
                 <div className='col-md card team-card'>
                     <img src="" alt="Member Photo" className='card-img-top'/>
@@ -233,7 +273,6 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-
             <div className='row team-row'>
                 <div className='col-md card team-card'>
                     <img src={isaack} alt="Member Photo" className='card-img-top'/>
@@ -297,8 +336,6 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-
-
             <div className='row team-row'>
                 <div className='col-md card team-card'>
                     <img src="" alt="Member Photo" className='card-img-top'/>
@@ -375,7 +412,7 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

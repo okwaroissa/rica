@@ -245,6 +245,11 @@ ul li{
 .team-member-name{
   font-weight: bold;
 }
+.team-member-title{
+  font-weight: bold;
+  color: rgb(47, 138, 152);
+  font-size: 0.9rem;
+}
 
 .card-body{
   display: flex;
