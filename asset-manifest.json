@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rica/static/css/main.3b5f6360.css",
-    "main.js": "/rica/static/js/main.5fcbafb6.js",
+    "main.css": "/rica/static/css/main.b4a8449c.css",
+    "main.js": "/rica/static/js/main.b6417c5b.js",
     "static/media/housing.png": "/rica/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/rica/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/rica/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -10,16 +10,20 @@
     "static/media/support.png": "/rica/static/media/support.7efe5d40c9de22816457.png",
     "static/media/immigration.png": "/rica/static/media/immigration.c386fc6d065e56874440.png",
     "static/media/rica-logo.png": "/rica/static/media/rica-logo.a9374abe70c094e83a58.png",
-    "static/media/maxwell.jpg": "/rica/static/media/maxwell.6b224331e3af3021d14e.jpg",
+    "static/media/jennipher.jpg": "/rica/static/media/jennipher.953b4c8f84ecbf0b1130.jpg",
+    "static/media/maxwell.jpg": "/rica/static/media/maxwell.006812e54c115983c8fa.jpg",
+    "static/media/khalid.jpg": "/rica/static/media/khalid.2296de78bb6439809796.jpg",
+    "static/media/peter.jpg": "/rica/static/media/peter.8469444854eb316079a8.jpg",
     "static/media/isaack.jpg": "/rica/static/media/isaack.8014cbfe6c0dc89d7456.jpg",
+    "static/media/ibrahim.jpg": "/rica/static/media/ibrahim.f5b4b2cc2d2e67b53050.jpg",
     "static/media/hussein.jpg": "/rica/static/media/hussein.ea41e799f50c582359ad.jpg",
-    "static/media/tshibangu.jpg": "/rica/static/media/tshibangu.51aa17e6c5f277319891.jpg",
+    "static/media/tshibangu.jpg": "/rica/static/media/tshibangu.2cf5fe3376809decf7d8.jpg",
     "index.html": "/rica/index.html",
-    "main.3b5f6360.css.map": "/rica/static/css/main.3b5f6360.css.map",
-    "main.5fcbafb6.js.map": "/rica/static/js/main.5fcbafb6.js.map"
+    "main.b4a8449c.css.map": "/rica/static/css/main.b4a8449c.css.map",
+    "main.b6417c5b.js.map": "/rica/static/js/main.b6417c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b5f6360.css",
-    "static/js/main.5fcbafb6.js"
+    "static/css/main.b4a8449c.css",
+    "static/js/main.b6417c5b.js"
   ]
 }
