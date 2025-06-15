@@ -1,10 +1,11 @@
-import React, {useEffect, useRef, useState} from 'react'
+import {useEffect, useRef} from 'react'
 import { View } from 'ol'
 import { olView } from '../utils/mapping'
 import '../../node_modules/ol/ol.css'
 const Location = () => {
     const olviewRef = useRef<HTMLDivElement>(null)
     const viewRef = useRef<View | null>(null)
+    
     useEffect(()=>{
         if (olviewRef.current && viewRef.current == null){
             viewRef.current = olView(olviewRef.current)

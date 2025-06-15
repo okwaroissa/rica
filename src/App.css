@@ -132,7 +132,6 @@ html, body, #root{
 
 .nav-item, .nav-link{
   margin: 0;
-  /* padding: 0; */
 }
 
 .rica-page{
@@ -147,8 +146,6 @@ html, body, #root{
   border-radius: 0;
   margin: 0;
   padding: 0;
-  /* height: 50px;
-  width: 40px; */
 }
 
 navbar-toggler-icon{
@@ -221,15 +218,26 @@ ul li{
 }
 
 .team-row{
+  display: flex;
+  justify-content: center;
+  gap:5px;
+}
+
+.board-row, .members-row{
   width: 100%;
   padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
 }
 
 .card-img-top{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background: rgb(200, 200, 200);
-  border-radius: 125px;
+  border-radius: 0;
   line-height: 250px;
   text-align: center;
 }
@@ -239,15 +247,17 @@ ul li{
   justify-content: center;
   align-items: center;
   border: 0;
+  cursor: pointer;
 }
 
 .team-member-name{
   font-weight: bold;
+  font-size: 0.9rem;
 }
 .team-member-title{
   font-weight: bold;
   color: rgb(47, 138, 152);
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .card-body{
@@ -260,6 +270,11 @@ ul li{
   border-top: 2px solid rgb(47, 138, 152);
   display: flex;
   flex-direction: column;
+}
+
+.member-bio-title{
+  font-weight: bold;
+  color: rgb(0, 48, 68);
 }
 
 .member-linkedin-profile{
@@ -308,7 +323,6 @@ ul li{
 }
 .form-data-fields{
   border-top: 2px solid rgb(0, 48, 68);
-  /* border-bottom: 2px solid rgb(0, 48, 68); */
   padding: 3px 0;
 }
 
@@ -341,6 +355,25 @@ ul li{
 }
 
 .team-section-header{
-  color: rgb(47, 138, 152);
-  text-decoration: underline;
+  width: 100%;
+  border-bottom: 2px solid rgb(47, 138, 152);
+  text-align: center;
+  font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 50px; /* your navbar height */
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: rgb(47, 138, 152);
+    padding: 1rem;
+  }
+
+  .navbar {
+    position: relative;
+  }
 }

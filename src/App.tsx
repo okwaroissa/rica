@@ -1,48 +1,67 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import {Routes, Route, Link, Navigate} from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Services from './pages/services'
 import Location from './pages/location'
 import Team from './pages/team'
+import Member from './pages/member'
+import Advisors from './pages/advisors'
 import Contact from './pages/contact'
 import './App.css'
 import negative from './images/rica-logo.png'
+import { member } from './types/types'
 
 const App = () => {
+  const collapseRef = useRef<HTMLDivElement>(null)
+  const closeNavbar = () => {
+    if (collapseRef.current && collapseRef.current.classList.contains('show')) {
+      const bsCollapse = new (window as any).bootstrap.Collapse(collapseRef.current, {
+        toggle: false
+      });
+      bsCollapse.hide();
+    }
+  };
   return (
     <div className="App">
       <div className='rica-header'>
+        {/* <div className='container-fluid'>
+          
+        </div> */}
         <nav className='navbar navbar-expand-lg rica-navbar'>
-          <a className='rica-company-banner navbar-brand' href='#'>
-            <img src={negative} alt="" className='logo-image img img-responsive' />
-          </a>
-          <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#ricanavbar'>
-            <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='rica-site-navigation collapse navbar-collapse' id='ricanavbar'>
-            <ul className='navbar-nav'>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/home'>Home</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/about'>About Us</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/services'>Services</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/location'>Location</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/team'>Team</Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link navigation-item' to='/contact'>Contact Us</Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            <a className='rica-company-banner navbar-brand' href='#'>
+              <img src={negative} alt="" className='logo-image img img-responsive' />
+            </a>
+            <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#ricanavbar'>
+              <span className='navbar-toggler-icon'></span>
+            </button>
+            <div className='rica-site-navigation collapse navbar-collapse' id='ricanavbar' ref={collapseRef}>
+              <ul className='navbar-nav'>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/home' onClick={closeNavbar}>Home</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/about' onClick={closeNavbar}>About Us</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/services' onClick={closeNavbar}>Services</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/location' onClick={closeNavbar}>Location</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/team' onClick={closeNavbar}>Team</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/advisors' onClick={closeNavbar}>Advisors</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/contact' onClick={closeNavbar}>Contact Us</Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
       </div>
 
       <div className='rica-content'>
@@ -53,6 +72,8 @@ const App = () => {
           <Route path='/services' element={<Services/>}/>
           <Route path='/location' element={<Location/>}/>
           <Route path='/team' element={<Team/>}/>
+          <Route path='/member' element={<Member/>}/>
+          <Route path='/advisors' element={<Advisors/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </div>

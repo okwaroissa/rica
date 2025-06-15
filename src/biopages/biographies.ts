@@ -2,6 +2,10 @@ import hussein from '../images/hussein.jpg'
 import tshibangu from '../images/tshibangu.jpg'
 import isaack from '../images/isaack.jpg'
 import maxwell from '../images/maxwell.jpg'
+import peter from '../images/peter.jpg'
+import khalid from '../images/khalid.jpg'
+import ibrahim from '../images/ibrahim.jpg'
+import jennifer from '../images/jennipher.jpg'
 
 export const team = {
     "board":[
@@ -11,7 +15,7 @@ export const team = {
             "photo":maxwell,
             "linkedin":"https://www.linkedin.com/in/maxwell-agyemang/",
             "bio":[
-                "Dr. Maxwell Agyemang is an economist and educator whose career exemplifies RICA&#39;s\
+                "Dr. Maxwell Agyemang is an economist and educator whose career exemplifies RICA's\
                     commitment to empowering immigrant communities. As a Ghanaian immigrant, he brings lived\
                     experience and academic expertise to advancing equity and opportunity for newcomers.",
                 "Dr. Agyemang earned his Ph.D. in Economics from Clark University. His research on healthcare\
@@ -20,7 +24,7 @@ export const team = {
                     systemic barriers and informs culturally responsive interventions.",
                 "Currently serving as Director of the Teens Department at Faith Fellowship Ministry\
                     International, Dr. Agyemang embodies the empowerment methodology through\
-                    comprehensive youth development programs that build upon young immigrants&#39; existing\
+                    comprehensive youth development programs that build upon young immigrants' existing\
                     strengths and resilience. His programs integrate life skills training, academic support, and\
                     career preparation.",
                 "With over a decade of teaching experience at institutions including Bronx Community College\
@@ -28,7 +32,7 @@ export const team = {
                     from immigrant backgrounds toward academic and professional success. His strength-based\
                     pedagogy creates inclusive learning environments where students thrive while maintaining\
                     their cultural identities.",
-                "Dr. Agyemang&#39;s data analysis and policy evaluation expertise enable him to translate\
+                "Dr. Agyemang's data analysis and policy evaluation expertise enable him to translate\
                     community experiences into evidence-based recommendations for decision-makers. His\
                     bilingual skills and cultural responsiveness make him a bridge-builder between immigrant\
                     communities and complex institutional systems. He supports creating environments where\
@@ -47,36 +51,36 @@ export const team = {
         {
             "name":"Ibrahim Muse",
             "title":"Treasurer",
-            "photo":"",
+            "photo":ibrahim,
             "linkedin":"",
             "bio":[
-                "Ibrahim Muse is a dedicated social worker whose career exemplifies RICA&#39;s mission of providing holistic\
+                "Ibrahim Muse is a dedicated social worker whose career exemplifies RICA's mission of providing holistic\
                     support and empowerment for refugee and immigrant communities. With over 10 years of distinguished\
                     experience delivering humanitarian services, Ibrahim brings both lived experience and professional\
                     expertise to advancing dignity, resilience, and meaningful integration for vulnerable populations.",
-                "Ibrahim&#39;s foundation was built in Kenyan refugee camps, where he provided critical support to children\
+                "Ibrahim's foundation was built in Kenyan refugee camps, where he provided critical support to children\
                     and adults displaced by conflicts and natural disasters. Working with various non-governmental\
                     organizations, he delivered comprehensive services, including education, housing, counseling, camp\
-                    management, youth development, and child protection programs. He embodies RICA&#39;s holistic support\
+                    management, youth development, and child protection programs. He embodies RICA's holistic support\
                     framework, which addresses interconnected challenges facing displaced populations.",
                 "Working as an independent contractor in Worcester, Massachusetts, Ibrahim is a vital bridge for\
                     immigrant communities, providing essential navigation services including interpretation, benefit\
                     applications, housing assistance, school enrollment support, and transportation coordination. His\
                     culturally responsive approach recognizes that successful integration requires addressing multiple needs\
-                    simultaneously while honoring each individual&#39;s cultural identity and inherent strengths.",
-                "Ibrahim&#39;s unique positioning—combining lived refugee experience with professional social work\
-                    expertise—allows him to implement RICA&#39;s empowerment methodology, building upon the resilience\
+                    simultaneously while honoring each individual's cultural identity and inherent strengths.",
+                "Ibrahim's unique positioning—combining lived refugee experience with professional social work\
+                    expertise—allows him to implement RICA's empowerment methodology, building upon the resilience\
                     and knowledge newcomers bring to their integration journeys. His trauma-informed approach creates\
                     healing-centered environments where individuals and families feel genuinely seen, heard, and\
                     supported throughout their transition.",
-                "A committed advocate for educational pathways and lifelong learning, Ibrahim holds an associate&#39;s\
+                "A committed advocate for educational pathways and lifelong learning, Ibrahim holds an associate's\
                     degree from Mount Kenya University, a Diploma in Education from Imara Teachers Training College, and\
-                    a bachelor&#39;s degree from Worcester State University. He is currently pursuing his master&#39;s degree in\
+                    a bachelor's degree from Worcester State University. He is currently pursuing his master's degree in\
                     social work at Anna Maria College, expanding his capacity to address systemic barriers and advance\
                     policy solutions that support community empowerment.",
-                "Ibrahim&#39;s unwavering commitment to diversity, equity, and inclusion reflects RICA&#39;s vision of creating\
+                "Ibrahim's unwavering commitment to diversity, equity, and inclusion reflects RICA's vision of creating\
                     communities where refugees and immigrants can heal, grow, and thrive. His dedication to serving\
-                    society&#39;s most vulnerable members demonstrates the transformative power of culturally responsive\
+                    society's most vulnerable members demonstrates the transformative power of culturally responsive\
                     advocacy and the importance of centering community voices in the work of social justice."
             ]
         },
@@ -96,6 +100,23 @@ export const team = {
             "linkedin":"",
             "bio":[
 
+            ]
+        }
+    ],
+    "advisors":[
+        {
+            "name":"Jennifer Carlson, Ph.D., CEM®, LCSW",
+            "title":"Board Advisor",
+            "photo":jennifer,
+            "linkedin":"https://www.linkedin.com/in/jenniferc14/",
+            "bio":[
+                "Jennifer Carlson, Ph.D., CEM®, LCSW, is a leading New England emergency management expert, educator, and author with over 20 years of experience. \
+                She has deployed to major disasters, including Hurricane Katrina and the Boston Marathon bombing, serving in leadership and training roles with the American Red Cross, FEMA, and the State of Massachusetts. \
+                Dr. Carlson is a Certified Emergency Manager and Licensed Clinical Social Worker.",
+                "She has taught emergency management and homeland security courses and workshops at institutions such as the Massachusetts Institute of Technology (MIT), the Massachusetts Maritime Academy, and Embry-Riddle Aeronautical University. \
+                Currently, she serves as a professor of emergency management at Anna Maria College, where she also serves as the campus-wide Co-Director of the Honors Program.",
+                "She is the author of multiple journal articles and books, including Exploring the Professionalization of Emergency [Disaster] Management. \
+                Dr. Carlson is dedicated to advancing the field through research on the professionalization of emergency management, as well as through teaching, writing, and service on professional boards."
             ]
         }
     ],
@@ -145,29 +166,29 @@ export const team = {
         {
             "name":"Khalid Herez",
             "title":"Community Advocate / Organizer",
-            "photo":"",
+            "photo":khalid,
             "linkedin":"",
             "bio":[
                 "Khalid Herez is a dedicated community leader and social services coordinator whose 17-year career\
-                    exemplifies RICA&#39;s commitment to holistic support and empowerment for refugee and immigrant\
+                    exemplifies RICA's commitment to holistic support and empowerment for refugee and immigrant\
                     communities. With extensive experience spanning three countries and multiple humanitarian\
                     organizations, Khalid brings deep cultural understanding and practical expertise to serving vulnerable\
                     populations navigating complex resettlement challenges.",
-                "Khalid&#39;s professional foundation was built through comprehensive work with prominent international\
+                "Khalid's professional foundation was built through comprehensive work with prominent international\
                     organizations, including the International Rescue Committee, Save the Children, and the International\
                     Catholic Migration Commission in Jordan, where he provided direct family outreach services to refugee\
                     populations. His hands-on approach included conducting home visits to assess family needs,\
                     coordinating healthcare access, facilitating school enrollment for children, and providing essential\
-                    supplies, embodying RICA&#39;s holistic support framework that addresses interconnected challenges.",
+                    supplies, embodying RICA's holistic support framework that addresses interconnected challenges.",
                 "From 2017 to 2022, Khalid served as Social Services Coordinator and Property Manager at Worcester\
                     Islamic Center, where he implemented culturally responsive programs that supported refugee\
                     integration into the Worcester community. His comprehensive services included transportation\
                     coordination, assistance with Social Security and welfare applications, banking support, and community\
                     engagement programming, demonstrating his commitment to addressing practical and social\
                     integration needs.",
-                "Khalid&#39;s educational background uniquely positions him to serve diverse populations with cultural\
+                "Khalid's educational background uniquely positions him to serve diverse populations with cultural\
                     sensitivity and religious understanding. He holds a Bachelor of Education from the University of Baghdad\
-                    and a master&#39;s degree in Uloom Al Quran (Islamic Studies) from the World Islamic Sciences &amp; Education\
+                    and a master's degree in Uloom Al Quran (Islamic Studies) from the World Islamic Sciences &amp; Education\
                     University in Jordan. His specialized religious certifications, including Ijaza Qiraat credentials, enable him\
                     to provide spiritual guidance alongside practical support services.",
                 "Khalid has demonstrated expertise in community outreach, family support coordination, and cross-\
@@ -179,7 +200,7 @@ export const team = {
                     empower immigrant communities through education, advocacy, and direct service provision. His\
                     multilingual abilities and deep understanding of Middle Eastern cultures and American systems position\
                     him as a vital resource for families seeking to rebuild their lives with dignity and purpose.",
-                "Khalid&#39;s dedication to serving society&#39;s most vulnerable members reflects RICA&#39;s vision of creating\
+                "Khalid's dedication to serving society's most vulnerable members reflects RICA's vision of creating\
                     inclusive communities where refugees and immigrants can heal, grow, and contribute to a more\
                     equitable society."
             ]
@@ -220,8 +241,8 @@ export const team = {
         },
         {
             "name":"Peter Ojukwu Bosire, JD",
-            "title":"Legal and Rights Education Coordinator",
-            "photo":"",
+            "title":"Legal Education Coordinator",
+            "photo":peter,
             "linkedin":"",
             "bio":[
 
