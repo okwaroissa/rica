@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rica/static/css/main.b4a8449c.css",
-    "main.js": "/rica/static/js/main.928c4bf8.js",
+    "main.js": "/rica/static/js/main.442db3af.js",
     "static/media/housing.png": "/rica/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/rica/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/rica/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -21,10 +21,10 @@
     "static/media/tshibangu.jpg": "/rica/static/media/tshibangu.2cf5fe3376809decf7d8.jpg",
     "index.html": "/rica/index.html",
     "main.b4a8449c.css.map": "/rica/static/css/main.b4a8449c.css.map",
-    "main.928c4bf8.js.map": "/rica/static/js/main.928c4bf8.js.map"
+    "main.442db3af.js.map": "/rica/static/js/main.442db3af.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a8449c.css",
-    "static/js/main.928c4bf8.js"
+    "static/js/main.442db3af.js"
   ]
 }
