@@ -92,6 +92,18 @@ export const team = {
             "photo":emma,
             "linkedin":"https://www.linkedin.com/in/emma-ankrah-6a088aa5/",
             "bio":[
+                "Emma K. Ankrah is a deeply committed social work professional with over a decade of experience supporting individuals and families through systems of care, protection, and empowerment. \
+                As a Social Worker with the Massachusetts Department of Children and Families, she has worked closely with families from diverse cultural and socioeconomic backgrounds—many of whom are immigrants or navigating the complex challenges of resettlement. \
+                Emma’s work includes conducting assessments, coordinating care plans, advocating in court settings, and connecting families to vital community resources, all while building trust across language, cultural, and generational divides.",
+                "Emma's prior roles in developmental services, teen parenting programs, and healthcare have sharpened her ability to advocate for those whose voices are often marginalized. \
+                At Ascentria Care Alliance, an organization that works with immigrant and refugee families, she supported young mothers in developing life skills, securing stable housing, and fostering healthy family relationships. \
+                This direct engagement with displaced populations gave her valuable insight into the structural barriers that immigrant communities face, and strengthened her commitment to culturally competent, trauma-informed care.",
+                "Her role as a Court Appointed Special Advocate (CASA) further reflects her passion for ensuring that vulnerable children, including unaccompanied minors and children from refugee families, receive fair representation and protection. \
+                Emma's deep empathy, cross-cultural understanding, and ethical approach have enabled her to serve as a crucial bridge between families and the systems that affect them. \
+                Her practice is grounded in dignity, equity, and respect for all people, regardless of their origin or immigration status.",
+                "Emma holds a Master of Social Work and Bachelor of Social Work from Anna Maria College, and an Associate of Science in Human Services from Quinsigamond Community College. \
+                She brings both academic training and real-world experience to her advocacy, making her a powerful ally in the effort to advance the rights, stability, and inclusion of refugee and immigrant populations. \
+                Whether in policy discussions, direct service, or community outreach, Emma remains steadfast in her mission to uplift and empower those navigating the path to a new beginning."
 
             ]
         },
