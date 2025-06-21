@@ -5,7 +5,9 @@ import maxwell from '../images/maxwell.jpg'
 import peter from '../images/peter.jpg'
 import khalid from '../images/khalid.jpg'
 import ibrahim from '../images/ibrahim.jpg'
+import emma from '../images/emma.jpg'
 import jennifer from '../images/jennipher.jpg'
+
 
 export const team = {
     "board":[
@@ -87,8 +89,8 @@ export const team = {
         {
             "name":"Emma Karen Ankrah, MSW",
             "title":"Secretary",
-            "photo":"",
-            "linkedin":"",
+            "photo":emma,
+            "linkedin":"https://www.linkedin.com/in/emma-ankrah-6a088aa5/",
             "bio":[
 
             ]
@@ -211,13 +213,22 @@ export const team = {
             "photo":isaack,
             "linkedin":"https://www.linkedin.com/in/isaack-okwaro-656b534a/",
             "bio":[
-                "Isaack Okwaro Nyagweso is Geographical Information Systems Analyst &  Developer, with 15 years of experience in applications of geographic analytics in the health, infrastructure, land and the built environment industries.",
-                "Ibrahim has been engaged with immigrant communities in Worcester, MA on voluntary grounds serving them with services such as Interpretation, benefit applications, Housing, school forms, and transportation to appointments.",
-                "He began his career by supporting and advocating for Refugee children and adults from diverse culture who were displaced by conflicts and natural disasters and lived in the refugee camp in Kenya.\
-                    Ibrahim worked with Various Non-governmental organizations operating in the Refugee camp delivering services such as Education, Housing, counselling services, camp management, youth training, and child protection.",
-                "Mr. Muse believes that diversity, equity, and inclusion are the basic values for humanity. Willing to discuss and help the most vulnerable members in the society.",
-                "Ibrahim has an associate degree from Mount Kenya University in Kenya, Diploma in Education from Imara teachers training college, and bachelor’s degree from Worcester State University.\
-                    He is currently Pursuing his master’s in social work at Anna Maria college."
+                "Isaack Okwaro Nyagweso is a seasoned GIS Analyst and Developer with over 15 years of experience delivering geospatial solutions across transportation, environmental management, energy infrastructure, land tenure, and public health sectors. \
+                He currently serves as a GIS Developer at the Massachusetts Department of Transportation, where he contributes to the development and maintenance of advanced GIS web applications using ArcGIS Experience Builder, React, and ArcGIS JavaScript API. \
+                His work supports critical spatial data services and decision-making tools for transportation planning and infrastructure management.",
+                "Prior to his current role, Isaack held GIS leadership positions on major renewable energy initiatives, including offshore wind projects with Ocean Winds North America and Mayflower Wind Energy. \
+                In these roles, he led the development of GIS databases and web mapping applications, integrating platforms such as QGIS, AutoCAD Civil 3D, ArcGIS Pro, ASP.NET MVC, and PostgreSQL. \
+                His expertise supported environmental permitting, transmission routing, and site characterization through geospatial data analysis and visualization.",
+                "Isaack’s career also spans impactful roles in international development, including projects with UN-Habitat, the World Bank, and NGOs like JHPIEGO and FHI. \
+                His work involved land administration system design, training government officials, environmental impact modeling, and developing GIS-enabled health and land information systems. \
+                His technical arsenal includes Python, R, .NET, SQL Server, OpenLayers, and cloud platforms like Azure and AWS—tools he employs to build scalable and interactive spatial applications.",
+                "Isaack holds two master’s degrees from Clark University, in Geographic Information Science and Data Analytics, and a bachelor's in Land Surveying from the University of Nairobi. \
+                With a deep commitment to geospatial innovation, he bridges traditional surveying practices with modern software development, enabling data-driven solutions in diverse and complex environments. \
+                His multidisciplinary background and global project portfolio make him a trusted expert in applying GIS to real-world challenges.",
+                "In addition to his technical accomplishments, Isaack brings a global and humanitarian perspective to his work, shaped by years of engagement in cross-border projects and public service. \
+                His experience developing land information systems, urban planning tools, and health mapping applications for vulnerable populations positions him uniquely for refugee and immigrant advocacy. \
+                By leveraging geospatial technology to map displacement patterns, assess infrastructure needs, and support equitable resource distribution, Isaack contributes valuable insight to initiatives focused on community resettlement and inclusion. \
+                His background working with international agencies, government bodies, and local organizations enables him to bridge data-driven solutions with policy and human rights priorities—making him a vital asset in advancing GIS-supported advocacy for displaced and underserved communities."
             ]
 
         },
@@ -245,6 +256,18 @@ export const team = {
             "photo":peter,
             "linkedin":"",
             "bio":[
+                "Peter Bosire brings over 20 years of legal expertise and direct refugee resettlement experience to his work with RICA. \
+                His career exemplifies RICA's mission of providing comprehensive, culturally responsive support that empowers refugees and immigrants to navigate complex legal systems with dignity and purpose.",
+                "A graduate with LLB Honors from Maharishi Dayanand University and accredited by the Massachusetts School of Law, Peter combines international legal training with specialized U.S. immigration expertise. \
+                His cross-continental education uniquely positions him to understand the diverse legal frameworks that refugees and immigrants must navigate during their integration journey.",
+                "From 2023 to 2025, Peter worked with a federally funded refugee resettlement organization in Worcester, Massachusetts, working directly with immigration lawyers as a paralegal and legal services coordinator. \
+                In this role, he provided critical legal support during refugee settlement processes and served as a case manager, continuously monitoring client progress, embodying RICA's holistic, long-term empowerment approach.",
+                "Peter's legal expertise is essential for RICA's comprehensive service delivery, particularly in helping clients understand their rights, navigate immigration processes, and access legal protections. \
+                His experience spans private practice in Kenya and humanitarian services in Massachusetts, giving him unique insight into the systemic barriers preventing refugees and immigrants from accessing justice.",
+                "Currently involved in human service management, Peter continues his commitment to serving vulnerable populations through trauma-informed, culturally responsive approaches. \
+                His multilingual capabilities and cross-cultural legal expertise enable him to serve as a vital bridge between complex legal systems and immigrant communities who often face language barriers and cultural misunderstandings when seeking legal assistance.",
+                "For RICA's clients, Peter's expertise means access to knowledgeable legal guidance that honors their cultural backgrounds while helping them understand and exercise their rights in their new communities. \
+                His international legal experience and specialized refugee services background make him an invaluable advocate for justice and empowerment within RICA's mission."
 
             ]
         }
