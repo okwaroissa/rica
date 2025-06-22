@@ -7,6 +7,7 @@ import khalid from '../images/khalid.jpg'
 import ibrahim from '../images/ibrahim.jpg'
 import emma from '../images/emma.jpg'
 import jennifer from '../images/jennipher.jpg'
+import nelson from '../images/nelson.jpg'
 
 
 export const team = {
@@ -247,7 +248,7 @@ export const team = {
         {
             "name":"Nghia Nelson Le, MA, CAGS",
             "title":"Mental Health Program Coordinator",
-            "photo":"",
+            "photo":nelson,
             "linkedin":"",
             "bio":[
                 "Nghia Nelson Le is a Mental Health Bilingual Clinician at Community Healthlink in Worcester, Massachusetts, where he has served since 2019.\
