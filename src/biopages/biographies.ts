@@ -7,7 +7,9 @@ import khalid from '../images/khalid.jpg'
 import ibrahim from '../images/ibrahim.jpg'
 import emma from '../images/emma.jpg'
 import jennifer from '../images/jennipher.jpg'
+import carlson from '../images/carlson.jpg'
 import nelson from '../images/nelson.jpg'
+import sarkis from '../images/sarkis.jpg'
 
 
 export const team = {
@@ -122,7 +124,7 @@ export const team = {
         {
             "name":"Jennifer Carlson, Ph.D., CEM®, LCSW",
             "title":"Board Advisor",
-            "photo":jennifer,
+            "photo":carlson,
             "linkedin":"https://www.linkedin.com/in/jenniferc14/",
             "bio":[
                 "Jennifer Carlson, Ph.D., CEM®, LCSW, is a leading New England emergency management expert, educator, and author with over 20 years of experience. \
@@ -132,6 +134,17 @@ export const team = {
                 Currently, she serves as a professor of emergency management at Anna Maria College, where she also serves as the campus-wide Co-Director of the Honors Program.",
                 "She is the author of multiple journal articles and books, including Exploring the Professionalization of Emergency [Disaster] Management. \
                 Dr. Carlson is dedicated to advancing the field through research on the professionalization of emergency management, as well as through teaching, writing, and service on professional boards."
+            ]
+        },
+        {
+            "name":"Marianne Sarkis, Ph.D.",
+            "title":"Board Advisor",
+            "photo":sarkis,
+            "linkedin":"https://www.linkedin.com/in/marianne-sarkis/",
+            "bio":[
+                "Marianne Sarkis has over twenty years’ experience working with refugee and immigrant communities, including Somalis, Kenyans, Iraqis, and Ghanaians. \
+                She has provided advocacy and education through grand rounds and professional trainings on refugee health, reproductive health, and early childhood trauma, emphasizing culturally responsive and trauma-informed care. \
+                Drawing on her background in anthropology and data analytics, Marianne focuses on structural inequalities and immigrant health, ensuring refugee voices are recognized in shaping services and policy."
             ]
         }
     ],
