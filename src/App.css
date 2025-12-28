@@ -1,0 +1,378 @@
+body{
+  font-family: "Microsoft Sans Serif", serif;
+  font-size: 1.2rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.rica-header, .rica-footer{
+  display: flex;
+  flex-grow: 0;
+}
+
+.rica-header{
+  height: 50px;
+  background-color: rgb(47, 138, 152);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rica-navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.rica-content{
+  flex-grow: 1;
+  border-top: 2px solid rgb(47, 138, 152);
+  border-bottom: 2px solid rgb(0, 48, 68);
+  padding: 25px 50px;
+  max-height: calc(100vh - 150px);
+  overflow: auto;        /* Enables scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
+.rica-content::-webkit-scrollbar{
+  display: none; /* For Chrome, Safari and Opera */
+}
+
+.rica-footer{
+  flex-direction: column;
+  height: 100px;
+  background: rgb(0, 48, 68);
+  font-size: 0.7em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.rica-contact-address-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 35px;
+}
+
+.home-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.home-back{
+  height: 200px;
+  width: auto;
+}
+
+.emphasize{
+  font-weight: bold;
+  color: rgb(47, 138, 152);
+}
+
+.company-name{
+  font-size: 2em;
+  font-weight: bold;
+  flex-grow: 0;
+}
+
+.logo-image{
+  height: 40px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.rica-site-navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  flex-grow: 1;
+  cursor: pointer;
+  background: rgb(47, 138, 152);
+  padding: 0;
+}
+
+.navigation-item{
+  height: 25px;
+  font-size: 1.0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+
+.nav-item, .nav-link{
+  margin: 0;
+}
+
+.rica-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler{
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+navbar-toggler-icon{
+  border: 0;
+  color: white;
+  border-radius: 0;
+}
+
+.core-area,.service-area-item{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-heading{
+  text-decoration: underline;
+  color: rgb(47, 138, 152);
+  font-weight: bold;
+}
+
+.service-area-heading{
+  color: rgb(47, 138, 152);
+  font-weight: bold;
+  border-bottom: 2px solid rgb(47, 138, 152);
+  text-align: center;
+}
+
+.rica-mission, .rica-vision, .rica-core-elements, .rica-services{
+  padding: 10px 0;
+}
+
+.rica-service-area{
+  padding: 5px 0;
+}
+
+.service-area-image{
+  filter: opacity(100%);
+}
+
+ul li{
+  margin-left: 40px;
+}
+
+.ol-view{
+  flex-grow: 1;
+}
+
+.location-details{
+  flex-grow: 0;
+}
+
+.location-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rica-location-header{
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(47, 138, 152);
+}
+
+.location-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-row{
+  display: flex;
+  justify-content: center;
+  gap:5px;
+}
+
+.board-row, .members-row{
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  background: rgb(200, 200, 200);
+  border-radius: 0;
+  line-height: 250px;
+  text-align: center;
+}
+
+.team-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.team-member-name{
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.team-member-title{
+  font-weight: bold;
+  color: rgb(47, 138, 152);
+  font-size: 0.7rem;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-bio{
+  border-top: 2px solid rgb(47, 138, 152);
+  display: flex;
+  flex-direction: column;
+}
+
+.member-bio-title{
+  font-weight: bold;
+  color: rgb(0, 48, 68);
+}
+
+.member-linkedin-profile{
+  background: rgb(0, 48, 68);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 0;
+  flex-grow: 0;
+}
+.member-details{
+  flex-grow: 1;
+}
+
+.contact-submit{
+  background: rgb(0, 48, 68);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 0;
+}
+.contact-submit:hover{
+  border: 2px solid rgb(0, 48, 68);
+  color: white;
+  background: rgba(0, 48, 68, 0.7);
+}
+
+.contact-label{
+  text-align: right;
+  line-height: 38px;
+}
+
+.contact-us-form{
+  width: 75%;
+}
+
+.form-group{
+  margin: 5px 0;
+}
+
+.no-padding-margin{
+  padding-left: 0;
+  padding-right: 0;
+}
+.form-data-fields{
+  border-top: 2px solid rgb(0, 48, 68);
+  padding: 3px 0;
+}
+
+.footer-component-address, .footer-component-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control{
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 0;
+}
+.footer-component-media{
+  border-top: 2px solid white;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5px;
+}
+.footer-component-media a{
+  color: white;
+  text-decoration: none;
+}
+.social-icon{
+  color: white;
+  height: 40px;
+  width: auto;
+}
+
+.team-section-header{
+  width: 100%;
+  border-bottom: 2px solid rgb(47, 138, 152);
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 50px; /* your navbar height */
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: rgb(47, 138, 152);
+    padding: 1rem;
+  }
+  .navbar {
+    position: relative;
+  }
+}

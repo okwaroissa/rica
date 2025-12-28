@@ -1,0 +1,29 @@
+[33m99134e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull: Fast-forward
+[33mc6f9088[m HEAD@{1}: commit (merge): remove nelson
+[33mf7f2670[m HEAD@{2}: commit: nelson removal
+[33md65ed81[m HEAD@{3}: commit: update homepage
+[33maa888c4[m HEAD@{4}: commit: sarkis bio
+[33m23199be[m HEAD@{5}: commit: another update
+[33m47397e0[m HEAD@{6}: commit: nelson image addition
+[33m4a930cf[m HEAD@{7}: commit: another update
+[33m439f2e0[m HEAD@{8}: commit: biography updates
+[33m2ad3893[m HEAD@{9}: commit: my new url deployment
+[33m21b07f9[m HEAD@{10}: commit: new url updates
+[33mdcb61a8[m HEAD@{11}: commit: url update
+[33me2656b7[m HEAD@{12}: commit: Biography updates
+[33m718aac9[m HEAD@{13}: commit: Update 1
+[33m6b4bd5b[m HEAD@{14}: commit: next deploy update
+[33m319be1b[m HEAD@{15}: commit: deployment changes
+[33m18b3895[m HEAD@{16}: commit: homepage update
+[33m77110f5[m HEAD@{17}: commit: new updates
+[33m52b22eb[m HEAD@{18}: commit: redeploy
+[33mdadb947[m HEAD@{19}: commit: style change
+[33mbf5c7b1[m HEAD@{20}: commit: team page updates
+[33m2a4bed3[m HEAD@{21}: commit: routing updates
+[33m05923c4[m HEAD@{22}: commit: url changed
+[33mbff2362[m HEAD@{23}: commit: link updates
+[33m1c5d87b[m HEAD@{24}: commit: pages update
+[33m9a02b73[m HEAD@{25}: commit: github pages deployment updates
+[33m42c3c04[m HEAD@{26}: commit: Router updates
+[33m54ee166[m HEAD@{27}: Branch: renamed refs/heads/master to refs/heads/main
+[33m54ee166[m HEAD@{29}: commit (initial): Initial Commit
