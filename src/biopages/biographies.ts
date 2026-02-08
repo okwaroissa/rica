@@ -122,7 +122,7 @@ export const team = {
     ],
     "advisors":[
         {
-            "name":"Jennifer Carlson, Ph.D., CEM®, LCSW",
+            "name":"Jennifer Carlson, Ph.D.",
             "title":"Board Advisor",
             "photo":carlson,
             "linkedin":"https://www.linkedin.com/in/jenniferc14/",
