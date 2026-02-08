@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.faafd7b4.css",
-    "main.js": "/static/js/main.b78b3725.js",
+    "main.js": "/static/js/main.53cc313a.js",
     "static/media/housing.png": "/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -15,17 +15,17 @@
     "static/media/emma.jpg": "/static/media/emma.8ae774fc474d7459d50b.jpg",
     "static/media/khalid.jpg": "/static/media/khalid.2296de78bb6439809796.jpg",
     "static/media/peter.jpg": "/static/media/peter.8469444854eb316079a8.jpg",
+    "static/media/sarkis.jpg": "/static/media/sarkis.245d01b7021327f01906.jpg",
     "static/media/isaack.jpg": "/static/media/isaack.8014cbfe6c0dc89d7456.jpg",
     "static/media/ibrahim.jpg": "/static/media/ibrahim.f5b4b2cc2d2e67b53050.jpg",
     "static/media/hussein.jpg": "/static/media/hussein.ea41e799f50c582359ad.jpg",
     "static/media/tshibangu.jpg": "/static/media/tshibangu.2cf5fe3376809decf7d8.jpg",
-    "static/media/sarkis.jpg": "/static/media/sarkis.d8a52c01b7a732aea014.jpg",
     "index.html": "/index.html",
     "main.faafd7b4.css.map": "/static/css/main.faafd7b4.css.map",
-    "main.b78b3725.js.map": "/static/js/main.b78b3725.js.map"
+    "main.53cc313a.js.map": "/static/js/main.53cc313a.js.map"
   },
   "entrypoints": [
     "static/css/main.faafd7b4.css",
-    "static/js/main.b78b3725.js"
+    "static/js/main.53cc313a.js"
   ]
 }
