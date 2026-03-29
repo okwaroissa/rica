@@ -5,3 +5,9 @@ export interface member{
     photo:string
     linkedin:string
 }
+
+export interface galleryitem{
+    imageurl:string
+    heading:string
+    description:string
+}

@@ -376,3 +376,40 @@ ul li{
     position: relative;
   }
 }
+
+
+
+
+
+
+.rica-carousel{
+  display: flex;
+}
+
+.carousel-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image{
+  height: 65vh;
+  width: auto;
+}
+
+.rica-carousel-tracker{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item-title{
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(47, 138, 152)
+}

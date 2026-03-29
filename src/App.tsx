@@ -3,6 +3,7 @@ import {Routes, Route, Link, Navigate} from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Services from './pages/services'
+import Gallery from './pages/gallery'
 import Location from './pages/location'
 import Team from './pages/team'
 import Member from './pages/member'
@@ -47,6 +48,9 @@ const App = () => {
                   <Link className='nav-link navigation-item' to='/services' onClick={closeNavbar}>Services</Link>
                 </li>
                 <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/gallery' onClick={closeNavbar}>Gallery</Link>
+                </li>
+                <li className='nav-item'>
                   <Link className='nav-link navigation-item' to='/location' onClick={closeNavbar}>Location</Link>
                 </li>
                 <li className='nav-item'>
@@ -70,6 +74,7 @@ const App = () => {
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/location' element={<Location/>}/>
           <Route path='/team' element={<Team/>}/>
           <Route path='/member' element={<Member/>}/>

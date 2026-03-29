@@ -10,6 +10,7 @@ import jennifer from '../images/jennipher.jpg'
 import carlson from '../images/carlson.jpg'
 import nelson from '../images/nelson.jpg'
 import sarkis from '../images/sarkis.jpg'
+import abdulaziz from '../images/abdulaziz.jpg'
 
 
 export const team = {
@@ -146,6 +147,26 @@ export const team = {
                 She has provided advocacy and education through grand rounds and professional trainings on refugee health, reproductive health, and early childhood trauma, emphasizing culturally responsive and trauma-informed care. \
                 Drawing on her background in anthropology and data analytics, Marianne focuses on structural inequalities and immigrant health, ensuring refugee voices are recognized in shaping services and policy."
             ]
+        },
+        {
+            "name":"Susan M. Swanson",
+            "title":"Board Advisor",
+            "photo":"",
+            "linkedin":"",
+            "bio":[
+                "Susan M. Swanson brings over 40 years of clinical expertise in speech-language pathology and neurodevelopmental disabilities to her work with RICA. \
+                Her career exemplifies RICA's mission of providing compassionate, interdisciplinary support that empowers vulnerable populations to overcome communication barriers and access essential services with dignity and understanding.",
+                "A graduate of Kent State University with both Bachelor's and master’s degrees in Speech-Language Pathology, and holding advanced certification from Boston College in Autism, Theology, and Christian Religious Education, Susan combines clinical excellence with deep cultural and spiritual sensitivity. \
+                Her specialized training uniquely positions her to understand the complex communication challenges that refugees and immigrants face, particularly those with neurodevelopmental disabilities or family members requiring specialized care",
+                "Until her retirement in June 2025, Susan served as Clinical Instructor of Psychiatry at UMass Chan Medical School in Worcester, Massachusetts, where she spent over two decades training healthcare professionals in interdisciplinary assessment and treatment. \
+                From 2017 to 2025, as Program Director of Pathways to Inclusive Health Care, she developed curriculum and mentored future healthcare providers in delivering culturally responsive, trauma-informed care—directly embodying RICA's holistic approach to community empowerment.",
+                "Susan's expertise is essential for RICA's comprehensive service delivery, particularly in supporting clients with communication disorders, helping families navigate complex healthcare systems, and ensuring that individuals with neurodevelopmental disabilities receive appropriate accommodations. \
+                Her experience spans clinical practice, education, and crisis intervention, including her role as Team Leader for ECHO AUTISM: Crisis Care (2022-2025), where she provided technical assistance to mobile crisis teams across Massachusetts.",
+                "Throughout her distinguished career, Susan has been recognized for her exceptional service, receiving the Commonwealth Heroine Award (2022) and the Excellence in Service Award from the Massachusetts Department of Youth Services (2019). \
+                Her published research on experiential faith formation for children with autism demonstrates her commitment to inclusive, culturally sensitive approaches that honor diverse backgrounds and abilities.",
+                "For RICA's clients, Susan's expertise means access to specialized knowledge that bridges communication barriers while honoring cultural and individual differences. \
+                Her interdisciplinary training and decades of experience working with vulnerable populations make her an invaluable advocate for accessibility, inclusion, and empowerment within RICA's mission to serve refugee and immigrant communities."
+            ]
         }
     ],
     "members":[
@@ -277,6 +298,17 @@ export const team = {
                 "For RICA's clients, Peter's expertise means access to knowledgeable legal guidance that honors their cultural backgrounds while helping them understand and exercise their rights in their new communities. \
                 His international legal experience and specialized refugee services background make him an invaluable advocate for justice and empowerment within RICA's mission."
 
+            ]
+        },
+                {
+            "name":"Abdul Aziz",
+            "title":"Case Manager",
+            "photo":abdulaziz,
+            "linkedin":"",
+            "bio":[
+                "As a trilingual and community-focused professional, I bring over three years of experience supporting vulnerable populations in refugee environments and continuing that work through volunteer service in Worcester, Massachusetts. \
+                My passion lies in helping people overcome language and system barriers — especially non-English speaking Somali individuals — by assisting with social navigation, medical appointments, housing support, school enrollment and more.",
+                "I thrive in diverse, high-pressure settings and excel at building trust across cultural and linguistic lines. Whether in a formal role or as a volunteer, I’m committed to advocacy, clear communication, and connecting underserved communities with the resources they need to thrive."
             ]
         }
     ]
