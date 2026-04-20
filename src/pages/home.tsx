@@ -19,8 +19,8 @@ const Home = () =>{
             <h6 className='motto'>Together, we build stronger communities.</h6>
             <h2 className='emphasize'>Our Partners</h2>
             <div className='rica-partners'>
-                <a href="https://reliantfoundation.org/" target='_blank'><img src={reliant} alt="" /></a>
-                <a href="https://www.ummhealth.org/" target='_blank'><img src={umass} alt="" /></a>
+                <a href="https://reliantfoundation.org/" target='_blank' className='partner'><img src={reliant} alt="reliant foundation" /></a>
+                <a href="https://www.ummhealth.org/" target='_blank' className='partner'><img src={umass} alt="umass memorial health" /></a>
             </div>
         </div>
     )

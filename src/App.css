@@ -101,14 +101,19 @@ html, body, #root{
 }
 
 .rica-partners{
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  padding: 5px;
   border-top: 2px solid rgb(47, 138, 152);
   width: 100%;
-  align-items: center;
+  overflow-x: scroll;
+  display: flex;
   justify-content: center;
-  padding: 5px;
+  align-items: center;
+  gap:30px;
+}
+
+.prtner img{
+  height: 100px;
+  width: auto;
 }
 
 .company-name{

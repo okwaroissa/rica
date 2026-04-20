@@ -11,7 +11,7 @@ import Advisors from './pages/advisors'
 import Contact from './pages/contact'
 import './App.css'
 import negative from './images/rica-logo.png'
-import { member } from './types/types'
+
 
 const App = () => {
   const collapseRef = useRef<HTMLDivElement>(null)
