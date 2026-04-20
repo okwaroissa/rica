@@ -5,7 +5,7 @@ import umass from '../images/ummh_logo_color.png'
 
 const Home = () =>{
     return (
-        <div className='rica-page home-page'>
+        <div className='rica-page'>
             <img src={positive} alt="" className='home-back'/>
             <h2 className='emphasize'>Welcome to RICA</h2>
             <div>
