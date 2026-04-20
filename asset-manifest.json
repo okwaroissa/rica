@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f86ad9b5.css",
-    "main.js": "/static/js/main.46088d1f.js",
+    "main.css": "/static/css/main.c78e4e8e.css",
+    "main.js": "/static/js/main.6f9e4d41.js",
     "static/media/housing.png": "/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -28,11 +28,11 @@
     "static/media/ummh_logo_color.png": "/static/media/ummh_logo_color.e1e686956435c1554be9.png",
     "static/media/reliant-logo.png": "/static/media/reliant-logo.40279a659be2ea69d628.png",
     "index.html": "/index.html",
-    "main.f86ad9b5.css.map": "/static/css/main.f86ad9b5.css.map",
-    "main.46088d1f.js.map": "/static/js/main.46088d1f.js.map"
+    "main.c78e4e8e.css.map": "/static/css/main.c78e4e8e.css.map",
+    "main.6f9e4d41.js.map": "/static/js/main.6f9e4d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.f86ad9b5.css",
-    "static/js/main.46088d1f.js"
+    "static/css/main.c78e4e8e.css",
+    "static/js/main.6f9e4d41.js"
   ]
 }
