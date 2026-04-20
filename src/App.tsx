@@ -26,9 +26,6 @@ const App = () => {
   return (
     <div className="App">
       <div className='rica-header'>
-        {/* <div className='container-fluid'>
-          
-        </div> */}
         <nav className='navbar navbar-expand-lg rica-navbar'>
             <a className='rica-company-banner navbar-brand' href='#'>
               <img src={negative} alt="" className='logo-image img img-responsive' />
