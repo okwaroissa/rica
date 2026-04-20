@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rica/static/css/main.84bf06dc.css",
-    "main.js": "/rica/static/js/main.cb12e0e5.js",
+    "main.css": "/rica/static/css/main.f86ad9b5.css",
+    "main.js": "/rica/static/js/main.672d91c5.js",
     "static/media/housing.png": "/rica/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/rica/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/rica/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -12,6 +12,7 @@
     "static/media/gallery-community.png": "/rica/static/media/gallery-community.c60097dc837e71fbe741.png",
     "static/media/gallery-beneficiaries.png": "/rica/static/media/gallery-beneficiaries.06b4bcf00e7597b4e614.png",
     "static/media/rica-logo.png": "/rica/static/media/rica-logo.a9374abe70c094e83a58.png",
+    "static/media/rica-group-meet-1.jpeg": "/rica/static/media/rica-group-meet-1.c6abcd17fecc2ec2b74a.jpeg",
     "static/media/gallery-staff.jpg": "/rica/static/media/gallery-staff.1553e57dd497edbe7bd4.jpg",
     "static/media/maxwell.jpg": "/rica/static/media/maxwell.006812e54c115983c8fa.jpg",
     "static/media/carlson.jpg": "/rica/static/media/carlson.0a07df54d05e7b2f9a93.jpg",
@@ -24,12 +25,14 @@
     "static/media/ibrahim.jpg": "/rica/static/media/ibrahim.f5b4b2cc2d2e67b53050.jpg",
     "static/media/hussein.jpg": "/rica/static/media/hussein.ea41e799f50c582359ad.jpg",
     "static/media/tshibangu.jpg": "/rica/static/media/tshibangu.2cf5fe3376809decf7d8.jpg",
+    "static/media/ummh_logo_color.png": "/rica/static/media/ummh_logo_color.e1e686956435c1554be9.png",
+    "static/media/reliant-logo.png": "/rica/static/media/reliant-logo.40279a659be2ea69d628.png",
     "index.html": "/rica/index.html",
-    "main.84bf06dc.css.map": "/rica/static/css/main.84bf06dc.css.map",
-    "main.cb12e0e5.js.map": "/rica/static/js/main.cb12e0e5.js.map"
+    "main.f86ad9b5.css.map": "/rica/static/css/main.f86ad9b5.css.map",
+    "main.672d91c5.js.map": "/rica/static/js/main.672d91c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.84bf06dc.css",
-    "static/js/main.cb12e0e5.js"
+    "static/css/main.f86ad9b5.css",
+    "static/js/main.672d91c5.js"
   ]
 }
