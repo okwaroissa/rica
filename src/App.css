@@ -96,6 +96,21 @@ html, body, #root{
   color: rgb(47, 138, 152);
 }
 
+.motto{
+  font-weight: bold;
+}
+
+.rica-partners{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-top: 2px solid rgb(47, 138, 152);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
 .company-name{
   font-size: 2em;
   font-weight: bold;

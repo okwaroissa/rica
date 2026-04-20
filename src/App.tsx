@@ -86,7 +86,7 @@ const App = () => {
         <div className='rica-contact-address-container'>
           <div className='footer-component-contact'>
             <span className='footer-component-header'>&copy; Copyright RICA</span>
-            <span className='footer-component-header'>Phone: +1 (214) 779-8074</span>
+            <span className='footer-component-header'>Phone: +1 (774) 458-5551</span>
             <span className='footer-component-header'>Email:info@rica.org</span>
           </div>
           <div className='footer-component-address'>

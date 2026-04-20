@@ -30,6 +30,11 @@ const Gallery = () => {
                         <img src={gallery[2].imageurl} alt="RICA Beneficiaries" className='gallery-image'/>
                     </div>
                 </Carousel.Item>
+                <Carousel.Item className='carousel-item'>
+                    <div className='gallery-image-container'>
+                        <img src={gallery[3].imageurl} alt="RICA Group Meeting" className='gallery-image'/>
+                    </div>
+                </Carousel.Item>
             </Carousel>
             <div className='rica-carousel-tracker'>
                 <span ref={carouselheading} className='gallery-item-title'></span>
