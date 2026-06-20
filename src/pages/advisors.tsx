@@ -8,7 +8,7 @@ const Advisors = () => {
     const navigate = useNavigate()
     useEffect(()=>{
         if (refAdvisors.current && refAdvisors.current.innerHTML === ''){
-            createmembers(refAdvisors.current, team.advisors, 'BOARD OF ADVISORS', navigate)
+            createmembers(refAdvisors.current, team.advisors, navigate)
         }
     },[])
     return (

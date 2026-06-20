@@ -15,26 +15,17 @@ const Gallery = () => {
     return (
         <div className='rica-page'>
             <Carousel fade  variant='dark' indicators={false} className='rica-carousel' onSlide={(e) => setIndex(e)}>
-                <Carousel.Item className='carousel-item'>
-                    <div className='gallery-image-container'>
-                        <img src={gallery[0].imageurl} alt="Community Members" className='gallery-image'/>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item className='carousel-item'>
-                    <div className='gallery-image-container'>
-                        <img src={gallery[1].imageurl} alt="RICA Staff" className='gallery-image'/>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item className='carousel-item'>
-                    <div className='gallery-image-container'>
-                        <img src={gallery[2].imageurl} alt="RICA Beneficiaries" className='gallery-image'/>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item className='carousel-item'>
-                    <div className='gallery-image-container'>
-                        <img src={gallery[3].imageurl} alt="RICA Group Meeting" className='gallery-image'/>
-                    </div>
-                </Carousel.Item>
+                {gallery.map((item, _) => (
+                    <Carousel.Item className='carousel-item'>
+                        <div className='gallery-image-container'>
+                            <img src={item.imageurl} alt={item.alt} className='gallery-image'/>
+                            {/* <div className='gallery-image-description'>
+                                <span className='gallery-item-title'>{item.heading}</span>
+                                <p>{item.description}</p>
+                            </div> */}
+                        </div>
+                    </Carousel.Item>
+                ))}
             </Carousel>
             <div className='rica-carousel-tracker'>
                 <span ref={carouselheading} className='gallery-item-title'></span>

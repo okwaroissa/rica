@@ -103,6 +103,7 @@ html, body, #root{
 .rica-partners{
   padding: 5px;
   border-top: 2px solid rgb(47, 138, 152);
+  border-bottom: 2px solid rgb(47, 138, 152);
   width: 100%;
   overflow-x: scroll;
   display: flex;
@@ -244,14 +245,15 @@ ul li{
   gap:5px;
 }
 
-.board-row, .members-row{
+.board-members, .team-members {
   width: 100%;
-  padding: 15px 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow-x: auto;
+  gap: 5px;
+}
+
+.advisors-row {
+  display: flex;
+  gap: 5px;
 }
 
 .card-img-top{
@@ -274,6 +276,7 @@ ul li{
 .team-member-name{
   font-weight: bold;
   font-size: 0.9rem;
+  white-space: nowrap;
 }
 .team-member-title{
   font-weight: bold;
@@ -399,9 +402,6 @@ ul li{
 
 
 
-
-
-
 .rica-carousel{
   display: flex;
 }
@@ -414,6 +414,7 @@ ul li{
 .gallery-image-container{
   display: flex;
   justify-content: center;
+  /* border: 2px solid maroon; */
 }
 
 .gallery-image{

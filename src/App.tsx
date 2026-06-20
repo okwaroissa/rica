@@ -3,6 +3,7 @@ import {Routes, Route, Link, Navigate} from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Services from './pages/services'
+import Partners from './pages/partners'
 import Gallery from './pages/gallery'
 import Location from './pages/location'
 import Team from './pages/team'
@@ -45,6 +46,9 @@ const App = () => {
                   <Link className='nav-link navigation-item' to='/services' onClick={closeNavbar}>Services</Link>
                 </li>
                 <li className='nav-item'>
+                  <Link className='nav-link navigation-item' to='/partners' onClick={closeNavbar}>Partners</Link>
+                </li>
+                <li className='nav-item'>
                   <Link className='nav-link navigation-item' to='/gallery' onClick={closeNavbar}>Gallery</Link>
                 </li>
                 <li className='nav-item'>
@@ -71,6 +75,7 @@ const App = () => {
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/partners' element={<Partners/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/location' element={<Location/>}/>
           <Route path='/team' element={<Team/>}/>
@@ -96,7 +101,7 @@ const App = () => {
         </div>
 
         <div className='footer-component-media'>
-          <a href="https://facebook.com/yourpage" target='_blank'>
+          <a href="https://www.facebook.com/profile.php?id=61589537221609" target='_blank'>
             <span className="fa-stack fa-sm">
               <i className="fab fa-facebook fa-stack-2x fa-inverse social-icon"></i>
             </span>

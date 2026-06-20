@@ -1,4 +1,5 @@
 import hussein from '../images/hussein.jpg'
+import poku from '../images/poku.jpg'
 import tshibangu from '../images/tshibangu.jpg'
 import isaack from '../images/isaack.jpg'
 import maxwell from '../images/maxwell.jpg'
@@ -6,9 +7,9 @@ import peter from '../images/peter.jpg'
 import khalid from '../images/khalid.jpg'
 import ibrahim from '../images/ibrahim.jpg'
 import emma from '../images/emma.jpg'
-import jennifer from '../images/jennipher.jpg'
+import judi from '../images/judi.jpg'
 import carlson from '../images/carlson.jpg'
-import nelson from '../images/nelson.jpg'
+import abdella from '../images/abdella.jpg'
 import sarkis from '../images/sarkis.jpg'
 import abdulaziz from '../images/abdulaziz.jpg'
 
@@ -46,12 +47,19 @@ export const team = {
             ]
         },
         {
-            "name":"Magdelene Njuguna, MSW",
+            "name":"Judi Gachunga Machira, FNP-BC",
             "title":"Vice Chairperson",
-            "photo":"",
-            "linkedin":"",
+            "photo":judi,
+            "linkedin":"https://www.linkedin.com/in/judi-gachunga-machira-msn-fnp-bc-137a5742/",
             "bio":[
-
+                "Judi Gachunga Machira is a Board-Certified Family Nurse Practitioner and healthcare entrepreneur whose career reflects a deep commitment to accessible, patient-centered care. \
+                    As the founder and Director of Imarika Healthcare Services LLC in Worcester, Massachusetts, she has built a multi-disciplinary practice that bridges critical gaps in healthcare delivery for individuals and families across the region.",
+                "With a clinical background spanning urgent care, physiatry, addiction medicine, family practice, and behavioral health services, Judi brings a uniquely comprehensive perspective to healthcare. \
+                    Her work recognizes that health outcomes are deeply connected to social, cultural, and systemic factors — a philosophy that aligns closely with RICA's mission of holistic, culturally responsive support for refugee and immigrant communities. \
+                    Judi's academic journey reflects her dedication to growth and excellence. She earned her foundational training at Quinsigamond Community College in Worcester, continued her undergraduate studies at Worcester State University, and completed her graduate education at Regis College — a path that reflects both her roots in the Worcester community and her commitment to advanced clinical practice.",
+                "As an entrepreneur and clinician, Judi is equally committed to improving the experience of healthcare providers alongside their patients, understanding that sustainable, high-quality care depends on systems that support those who deliver it. \
+                    Her work at Imarika Healthcare Services stands as a model of integrated, community-focused healthcare rooted in dignity and equity. \
+                    RICA is honored to have Judi Gachunga Machira as a member of its leadership team, where her clinical expertise, entrepreneurial spirit, and commitment to underserved communities strengthen RICA's vision of a healthier and more inclusive Worcester."
             ]
         },
         {
@@ -118,6 +126,17 @@ export const team = {
             "linkedin":"",
             "bio":[
 
+            ]
+        },
+        {
+            "name":"Lymen Abdella",
+            "title":"Board Member",
+            "photo":abdella,
+            "linkedin":"",
+            "bio":[
+                "Lymen Abdella is a software engineer with a masters in applied computer science specializing in AI and machine learning. \
+                As a part-time educator with 4+ years of experience teaching, he is a valued member of the Worcester community where he hosts weekly tutoring and homework help sessions for our community's students. \
+                Lymen is dedicated to expanding learning opportunities for the students who need it most in fields such as mathematics and computer science."
             ]
         }
     ],
@@ -210,6 +229,24 @@ export const team = {
                 "A MacArthur Foundation research grant recipient, Dr. Kalala has authored numerous publications contributing to evidence-based programming across climate adaptation and food security.\
                  His work supports RICA's vision of creating communities where refugees and immigrants can heal and thrive by addressing environmental factors that drive displacement while building pathways for sustainable integration.",
                 "Dr. Kalala's unique positioning—combining PhD credentials, extensive field experience with displaced populations, and proven policy impact—makes him an invaluable asset to RICA's mission of fostering environments where every refugee and immigrant can contribute to a more equitable society."
+            ]
+        },
+        {
+            "name":"Annette Poku, MSW, LCSW",
+            "title":"Program Director",
+            "photo":poku,
+            "linkedin":"https://www.linkedin.com/in/annette-poku-119b29235/",
+            "bio":[
+                "Annette P. is a Licensed Clinical Social Worker whose career is defined by a steadfast commitment to the emotional well-being and resilience of the individuals and families she serves. \
+                    With advanced training and licensure grounded in evidence-based clinical practice, Annette brings both professional expertise and genuine compassion to every therapeutic relationship she builds",
+                "Annette specializes in supporting individuals navigating some of life's most challenging experiences, including anxiety, depression, trauma, and significant life transitions. \
+                    Her therapeutic approach is both collaborative and client-centered — recognizing that healing is not a one-size-fits-all journey, but a deeply personal process that requires trust, cultural sensitivity, and individualized care. \
+                    She draws on a range of evidence-based modalities to help clients develop practical tools for building resilience, confidence, and lasting emotional well-being.",
+                "Holding a Master of Social Work (MSW) degree alongside her clinical licensure, Annette has developed a practice rooted in the belief that every individual deserves access to high-quality mental health support regardless of their background or circumstances. \
+                    This conviction is particularly meaningful in the context of refugee and immigrant communities, where trauma, displacement, and cultural adjustment often intersect in complex and profound ways.",
+                "Annette's expertise in trauma-informed care and her compassionate, strengths-based methodology make her an invaluable contributor to RICA's growing mental health and wellness programming. \
+                    Her work aligns directly with RICA's mission to provide culturally responsive, comprehensive services to refugee and immigrant families across Worcester County."
+       
             ]
         },
         {
