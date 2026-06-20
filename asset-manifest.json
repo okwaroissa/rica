@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c78e4e8e.css",
-    "main.js": "/static/js/main.da9b69b2.js",
+    "main.css": "/static/css/main.6318a479.css",
+    "main.js": "/static/js/main.69de3788.js",
     "static/media/housing.png": "/static/media/housing.488a2f32268148b30262.png",
     "static/media/career.png": "/static/media/career.222aa3064ca212b4e7f3.png",
     "static/media/cultural-integration.png": "/static/media/cultural-integration.84acd047cc55c7938895.png",
@@ -11,9 +11,13 @@
     "static/media/immigration.png": "/static/media/immigration.c386fc6d065e56874440.png",
     "static/media/gallery-community.png": "/static/media/gallery-community.c60097dc837e71fbe741.png",
     "static/media/gallery-beneficiaries.png": "/static/media/gallery-beneficiaries.06b4bcf00e7597b4e614.png",
+    "static/media/rica-gallery-2.jpg": "/static/media/rica-gallery-2.297064922bb0a13b0de9.jpg",
     "static/media/rica-logo.png": "/static/media/rica-logo.a9374abe70c094e83a58.png",
     "static/media/rica-group-meet-1.jpeg": "/static/media/rica-group-meet-1.c6abcd17fecc2ec2b74a.jpeg",
+    "static/media/rica-gallery-1.jpeg": "/static/media/rica-gallery-1.2aa7a1339badd783eea4.jpeg",
     "static/media/gallery-staff.jpg": "/static/media/gallery-staff.1553e57dd497edbe7bd4.jpg",
+    "static/media/judi.jpg": "/static/media/judi.8fd2703c953203273524.jpg",
+    "static/media/poku.jpg": "/static/media/poku.fe45da162715c5006a17.jpg",
     "static/media/maxwell.jpg": "/static/media/maxwell.006812e54c115983c8fa.jpg",
     "static/media/carlson.jpg": "/static/media/carlson.0a07df54d05e7b2f9a93.jpg",
     "static/media/emma.jpg": "/static/media/emma.8ae774fc474d7459d50b.jpg",
@@ -23,16 +27,17 @@
     "static/media/sarkis.jpg": "/static/media/sarkis.245d01b7021327f01906.jpg",
     "static/media/isaack.jpg": "/static/media/isaack.8014cbfe6c0dc89d7456.jpg",
     "static/media/ibrahim.jpg": "/static/media/ibrahim.f5b4b2cc2d2e67b53050.jpg",
+    "static/media/abdella.jpg": "/static/media/abdella.5a4dffb193a72964d34b.jpg",
     "static/media/hussein.jpg": "/static/media/hussein.ea41e799f50c582359ad.jpg",
     "static/media/tshibangu.jpg": "/static/media/tshibangu.2cf5fe3376809decf7d8.jpg",
     "static/media/ummh_logo_color.png": "/static/media/ummh_logo_color.e1e686956435c1554be9.png",
     "static/media/reliant-logo.png": "/static/media/reliant-logo.40279a659be2ea69d628.png",
     "index.html": "/index.html",
-    "main.c78e4e8e.css.map": "/static/css/main.c78e4e8e.css.map",
-    "main.da9b69b2.js.map": "/static/js/main.da9b69b2.js.map"
+    "main.6318a479.css.map": "/static/css/main.6318a479.css.map",
+    "main.69de3788.js.map": "/static/js/main.69de3788.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78e4e8e.css",
-    "static/js/main.da9b69b2.js"
+    "static/css/main.6318a479.css",
+    "static/js/main.69de3788.js"
   ]
 }
